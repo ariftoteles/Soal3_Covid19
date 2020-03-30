@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_46bdbf64bf5240059804ffe2386082c5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_46bdbf64bf5240059804ffe2386082c5" ></div>
+        
+</body>
+<script>    
+    
+            var map_46bdbf64bf5240059804ffe2386082c5 = L.map(
+                "map_46bdbf64bf5240059804ffe2386082c5",
+                {
+                    center: [-2.275363, 99.4192074],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6a32fb7d5fb04758a9850f65bef21bfd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+            var marker_80b760276805480f9edaf742e4a14288 = L.marker(
+                [4.695135, 96.7493993],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_dc590cdd25504fc6abb74f815c10416b = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Coat_of_arms_of_Aceh.svg/1200px-Coat_of_arms_of_Aceh.svg.png"});
+        marker_80b760276805480f9edaf742e4a14288.setIcon(custom_icon_dc590cdd25504fc6abb74f815c10416b);
+        
+    
+        var popup_400930685edb448987184c15269401e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5a2e962726f4a1988ba0260c638fe9b = $(`<div id="html_a5a2e962726f4a1988ba0260c638fe9b" style="width: 100.0%; height: 100.0%;">Total Kasus : 5 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_400930685edb448987184c15269401e8.setContent(html_a5a2e962726f4a1988ba0260c638fe9b);
+        
+
+        marker_80b760276805480f9edaf742e4a14288.bindPopup(popup_400930685edb448987184c15269401e8)
+        ;
+
+        
+    
+    
+            marker_80b760276805480f9edaf742e4a14288.bindTooltip(
+                `<div>
+                     Aceh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc40af3980fe4383b3756f89644ac222 = L.marker(
+                [-8.4095178, 115.188916],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_3bf62d626a3d4479b359b71aba6fdf27 = L.icon({"iconSize": [30, 30], "iconUrl": "https://4.bp.blogspot.com/-ELlrLdH0frM/WSz4AjqIWaI/AAAAAAAAASY/EF5ayA5zXn05TXw53cRUVTJeh6lzUJDDwCLcB/s400/Lambang%2BDaerah%2BProvinsi%2BBali%2B2.png"});
+        marker_bc40af3980fe4383b3756f89644ac222.setIcon(custom_icon_3bf62d626a3d4479b359b71aba6fdf27);
+        
+    
+        var popup_20d9cfbcfb984ecbb7802ba0f6e15f32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a278e533bd5474aaff9e656305cb146 = $(`<div id="html_2a278e533bd5474aaff9e656305cb146" style="width: 100.0%; height: 100.0%;">Total Kasus : 10 Pasien Sembuh : 0 Kematian : 2</div>`)[0];
+            popup_20d9cfbcfb984ecbb7802ba0f6e15f32.setContent(html_2a278e533bd5474aaff9e656305cb146);
+        
+
+        marker_bc40af3980fe4383b3756f89644ac222.bindPopup(popup_20d9cfbcfb984ecbb7802ba0f6e15f32)
+        ;
+
+        
+    
+    
+            marker_bc40af3980fe4383b3756f89644ac222.bindTooltip(
+                `<div>
+                     Bali
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f60ba2e666f74709b41199c95c97900d = L.marker(
+                [-2.7410513, 106.4405872],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_8b1bb230fd2748f6a13b46bf71b3f568 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Coat_of_arms_of_Bangka_Belitung_Islands.svg/1200px-Coat_of_arms_of_Bangka_Belitung_Islands.svg.png"});
+        marker_f60ba2e666f74709b41199c95c97900d.setIcon(custom_icon_8b1bb230fd2748f6a13b46bf71b3f568);
+        
+    
+        var popup_3b6bb7546e244eee9444fc3e1a75f194 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_924d603062f9406f8574a68e0220ff18 = $(`<div id="html_924d603062f9406f8574a68e0220ff18" style="width: 100.0%; height: 100.0%;">Total Kasus : 0 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_3b6bb7546e244eee9444fc3e1a75f194.setContent(html_924d603062f9406f8574a68e0220ff18);
+        
+
+        marker_f60ba2e666f74709b41199c95c97900d.bindPopup(popup_3b6bb7546e244eee9444fc3e1a75f194)
+        ;
+
+        
+    
+    
+            marker_f60ba2e666f74709b41199c95c97900d.bindTooltip(
+                `<div>
+                     Bangka Belitung
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c09937ba506a44008e6e2fc3cf494810 = L.marker(
+                [-6.4058172, 106.0640179],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_bc98b465b4054fe39dd4c353377be935 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Coat_of_arms_of_Banten.png"});
+        marker_c09937ba506a44008e6e2fc3cf494810.setIcon(custom_icon_bc98b465b4054fe39dd4c353377be935);
+        
+    
+        var popup_ec1ec0e3279d4b76a7abad08beb546b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b75d154044664115b48a9a0cc6b87047 = $(`<div id="html_b75d154044664115b48a9a0cc6b87047" style="width: 100.0%; height: 100.0%;">Total Kasus : 106 Pasien Sembuh : 1 Kematian : 4</div>`)[0];
+            popup_ec1ec0e3279d4b76a7abad08beb546b9.setContent(html_b75d154044664115b48a9a0cc6b87047);
+        
+
+        marker_c09937ba506a44008e6e2fc3cf494810.bindPopup(popup_ec1ec0e3279d4b76a7abad08beb546b9)
+        ;
+
+        
+    
+    
+            marker_c09937ba506a44008e6e2fc3cf494810.bindTooltip(
+                `<div>
+                     Banten
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bb99e46d3b9489ca9ca46386cfffe17 = L.marker(
+                [-3.5778471, 102.3463875],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_9bfb3c17badf40aeb395731c872ef784 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Coat_of_arms_of_Bengkulu.png"});
+        marker_4bb99e46d3b9489ca9ca46386cfffe17.setIcon(custom_icon_9bfb3c17badf40aeb395731c872ef784);
+        
+    
+        var popup_28ec8b8856f54c6bb4ee3dca09fc57b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da59fca5138140818d315df9003e173d = $(`<div id="html_da59fca5138140818d315df9003e173d" style="width: 100.0%; height: 100.0%;">Total Kasus : 0 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_28ec8b8856f54c6bb4ee3dca09fc57b4.setContent(html_da59fca5138140818d315df9003e173d);
+        
+
+        marker_4bb99e46d3b9489ca9ca46386cfffe17.bindPopup(popup_28ec8b8856f54c6bb4ee3dca09fc57b4)
+        ;
+
+        
+    
+    
+            marker_4bb99e46d3b9489ca9ca46386cfffe17.bindTooltip(
+                `<div>
+                     Bengkulu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d5604a65dbf4b8a9566f617873aec14 = L.marker(
+                [-7.150975, 110.1402594],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_1c7e52179e134d39852f0d92d3f59b69 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Jawa_Tengah_Logo.svg/526px-Jawa_Tengah_Logo.svg.png"});
+        marker_5d5604a65dbf4b8a9566f617873aec14.setIcon(custom_icon_1c7e52179e134d39852f0d92d3f59b69);
+        
+    
+        var popup_43486721957f483d8c294dce8c232abc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dee491d44daa431bb65e227aba440ee6 = $(`<div id="html_dee491d44daa431bb65e227aba440ee6" style="width: 100.0%; height: 100.0%;">Total Kasus : 63 Pasien Sembuh : 0 Kematian : 7</div>`)[0];
+            popup_43486721957f483d8c294dce8c232abc.setContent(html_dee491d44daa431bb65e227aba440ee6);
+        
+
+        marker_5d5604a65dbf4b8a9566f617873aec14.bindPopup(popup_43486721957f483d8c294dce8c232abc)
+        ;
+
+        
+    
+    
+            marker_5d5604a65dbf4b8a9566f617873aec14.bindTooltip(
+                `<div>
+                     Central Java
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bac4544ce2c64347bd75c78e999a8b51 = L.marker(
+                [-1.6814878, 113.3823545],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_e264c4aba3764e3abdcdb5bd33ed1760 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Coat_of_arms_of_Central_Kalimantan.png"});
+        marker_bac4544ce2c64347bd75c78e999a8b51.setIcon(custom_icon_e264c4aba3764e3abdcdb5bd33ed1760);
+        
+    
+        var popup_df964ef135c842c0b7731e22bd5efdd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c33a12c11afd4e7eb02ac88ea0c2bddb = $(`<div id="html_c33a12c11afd4e7eb02ac88ea0c2bddb" style="width: 100.0%; height: 100.0%;">Total Kasus : 7 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_df964ef135c842c0b7731e22bd5efdd5.setContent(html_c33a12c11afd4e7eb02ac88ea0c2bddb);
+        
+
+        marker_bac4544ce2c64347bd75c78e999a8b51.bindPopup(popup_df964ef135c842c0b7731e22bd5efdd5)
+        ;
+
+        
+    
+    
+            marker_bac4544ce2c64347bd75c78e999a8b51.bindTooltip(
+                `<div>
+                     Central Kalimantan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_003f2b4857b84dc9868748de6cf45e59 = L.marker(
+                [-1.4300254, 121.4456179],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_f6ae646d59e942969cabb1cff0d88bdf = L.icon({"iconSize": [30, 30], "iconUrl": "http://1.bp.blogspot.com/-Mb3OPbim3Gw/VrYYo_59GjI/AAAAAAAAVFw/oh24hNmZ1NU/s1600/LOGO%2BSULAWESI%2BTENGAH.png"});
+        marker_003f2b4857b84dc9868748de6cf45e59.setIcon(custom_icon_f6ae646d59e942969cabb1cff0d88bdf);
+        
+    
+        var popup_c2ebfc9649ff412d8d09e3dc628d7c80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fb9de6c1e094f799f0d7086b85da04c = $(`<div id="html_2fb9de6c1e094f799f0d7086b85da04c" style="width: 100.0%; height: 100.0%;">Total Kasus : 2 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_c2ebfc9649ff412d8d09e3dc628d7c80.setContent(html_2fb9de6c1e094f799f0d7086b85da04c);
+        
+
+        marker_003f2b4857b84dc9868748de6cf45e59.bindPopup(popup_c2ebfc9649ff412d8d09e3dc628d7c80)
+        ;
+
+        
+    
+    
+            marker_003f2b4857b84dc9868748de6cf45e59.bindTooltip(
+                `<div>
+                     Central Sulawesi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d76ef99b0c1344a3ab16b8b0689e5258 = L.marker(
+                [-7.5360639, 112.2384017],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_347267fd7ac340dba7aa81a9bbe92be2 = L.icon({"iconSize": [30, 30], "iconUrl": "https://2.bp.blogspot.com/-S1hrqQnm0nc/XDCpZ6C7iSI/AAAAAAAABvI/MlNdKdkNBHQa0lU-1I0gyTT5FbFSR2K0QCLcBGAs/s400/logo%2Bprovinsi%2Bjawa%2Btimur.png"});
+        marker_d76ef99b0c1344a3ab16b8b0689e5258.setIcon(custom_icon_347267fd7ac340dba7aa81a9bbe92be2);
+        
+    
+        var popup_8d0e7e31653941fe932625ddd72953d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac3ab4472d6d45e7a073daa53c3b22c7 = $(`<div id="html_ac3ab4472d6d45e7a073daa53c3b22c7" style="width: 100.0%; height: 100.0%;">Total Kasus : 90 Pasien Sembuh : 11 Kematian : 7</div>`)[0];
+            popup_8d0e7e31653941fe932625ddd72953d1.setContent(html_ac3ab4472d6d45e7a073daa53c3b22c7);
+        
+
+        marker_d76ef99b0c1344a3ab16b8b0689e5258.bindPopup(popup_8d0e7e31653941fe932625ddd72953d1)
+        ;
+
+        
+    
+    
+            marker_d76ef99b0c1344a3ab16b8b0689e5258.bindTooltip(
+                `<div>
+                     East Java
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9895903644d74b148d504d2a74654b3e = L.marker(
+                [1.6406296, 116.419389],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_1d1f04e6526740339bca7ead60f946bd = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Coat_of_arms_of_East_Kalimantan.svg/1200px-Coat_of_arms_of_East_Kalimantan.svg.png"});
+        marker_9895903644d74b148d504d2a74654b3e.setIcon(custom_icon_1d1f04e6526740339bca7ead60f946bd);
+        
+    
+        var popup_65ce8b1ec22745ffa763861342792d24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_299a58af875b4450a605682141b65463 = $(`<div id="html_299a58af875b4450a605682141b65463" style="width: 100.0%; height: 100.0%;">Total Kasus : 17 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_65ce8b1ec22745ffa763861342792d24.setContent(html_299a58af875b4450a605682141b65463);
+        
+
+        marker_9895903644d74b148d504d2a74654b3e.bindPopup(popup_65ce8b1ec22745ffa763861342792d24)
+        ;
+
+        
+    
+    
+            marker_9895903644d74b148d504d2a74654b3e.bindTooltip(
+                `<div>
+                     East Kalimantan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ce5a91c4de948db876acba02f0f26af = L.marker(
+                [-8.6573819, 121.0793705],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_08e999fd821e414aa14443a8dd70c2dd = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Coat_of_arms_of_East_Nusa_Tenggara.svg/1200px-Coat_of_arms_of_East_Nusa_Tenggara.svg.png"});
+        marker_4ce5a91c4de948db876acba02f0f26af.setIcon(custom_icon_08e999fd821e414aa14443a8dd70c2dd);
+        
+    
+        var popup_64ffb709638b40cda13ad9d45fbb8f00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fa9923605904160b46c8cdcd9af1665 = $(`<div id="html_2fa9923605904160b46c8cdcd9af1665" style="width: 100.0%; height: 100.0%;">Total Kasus : 0 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_64ffb709638b40cda13ad9d45fbb8f00.setContent(html_2fa9923605904160b46c8cdcd9af1665);
+        
+
+        marker_4ce5a91c4de948db876acba02f0f26af.bindPopup(popup_64ffb709638b40cda13ad9d45fbb8f00)
+        ;
+
+        
+    
+    
+            marker_4ce5a91c4de948db876acba02f0f26af.bindTooltip(
+                `<div>
+                     East Nusa Tenggara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ab4ab04482045b9899d3a23b2915664 = L.marker(
+                [0.6999372, 122.4467238],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_03b2511602b04db981780d3ec50f2ca6 = L.icon({"iconSize": [30, 30], "iconUrl": "https://3.bp.blogspot.com/-75ec3fJKhgU/UNl0Tdg9UXI/AAAAAAAAIrg/YztGIINVa2w/s1600/LOGO+PROVINSI+GORONTALO.png"});
+        marker_1ab4ab04482045b9899d3a23b2915664.setIcon(custom_icon_03b2511602b04db981780d3ec50f2ca6);
+        
+    
+        var popup_4caf0516ea364348885c04c7de274165 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc9a26fabaf143778579cb355a69df22 = $(`<div id="html_dc9a26fabaf143778579cb355a69df22" style="width: 100.0%; height: 100.0%;">Total Kasus : 0 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_4caf0516ea364348885c04c7de274165.setContent(html_dc9a26fabaf143778579cb355a69df22);
+        
+
+        marker_1ab4ab04482045b9899d3a23b2915664.bindPopup(popup_4caf0516ea364348885c04c7de274165)
+        ;
+
+        
+    
+    
+            marker_1ab4ab04482045b9899d3a23b2915664.bindTooltip(
+                `<div>
+                     Gorontalo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49ad7248f3964a2d82335728c7c8dc81 = L.marker(
+                [-6.211544, 106.845172],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_4ffafb12ede543958adbaa95acec13e7 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/1200px-Coat_of_arms_of_Jakarta.svg.png"});
+        marker_49ad7248f3964a2d82335728c7c8dc81.setIcon(custom_icon_4ffafb12ede543958adbaa95acec13e7);
+        
+    
+        var popup_e5f2ae0c5eb34860ba99c52a79f80a19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54d6d513b8874f2d93ac9ad0ddce59a7 = $(`<div id="html_54d6d513b8874f2d93ac9ad0ddce59a7" style="width: 100.0%; height: 100.0%;">Total Kasus : 720 Pasien Sembuh : 45 Kematian : 68</div>`)[0];
+            popup_e5f2ae0c5eb34860ba99c52a79f80a19.setContent(html_54d6d513b8874f2d93ac9ad0ddce59a7);
+        
+
+        marker_49ad7248f3964a2d82335728c7c8dc81.bindPopup(popup_e5f2ae0c5eb34860ba99c52a79f80a19)
+        ;
+
+        
+    
+    
+            marker_49ad7248f3964a2d82335728c7c8dc81.bindTooltip(
+                `<div>
+                     Jakarta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bef049c445564bb78d5b1479440bce04 = L.marker(
+                [-1.4851831, 102.4380581],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_cc509676d67e4413ab0657462230a25a = L.icon({"iconSize": [30, 30], "iconUrl": "https://2.bp.blogspot.com/-y0bGVkW2XfY/Tdui2omcCgI/AAAAAAAADro/Ufjlj4w8nhs/s1600/logo+Jambi.png"});
+        marker_bef049c445564bb78d5b1479440bce04.setIcon(custom_icon_cc509676d67e4413ab0657462230a25a);
+        
+    
+        var popup_acded0e347154a198afe242acc3fb491 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5074166ec0c045339a8b90ca76afe5d6 = $(`<div id="html_5074166ec0c045339a8b90ca76afe5d6" style="width: 100.0%; height: 100.0%;">Total Kasus : 1 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_acded0e347154a198afe242acc3fb491.setContent(html_5074166ec0c045339a8b90ca76afe5d6);
+        
+
+        marker_bef049c445564bb78d5b1479440bce04.bindPopup(popup_acded0e347154a198afe242acc3fb491)
+        ;
+
+        
+    
+    
+            marker_bef049c445564bb78d5b1479440bce04.bindTooltip(
+                `<div>
+                     Jambi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c3957572d6240de832437eb4af94664 = L.marker(
+                [-4.5585849, 105.4068079],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_7202de64e00a4104afd811e281d31dad = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Lampung_coa.png"});
+        marker_0c3957572d6240de832437eb4af94664.setIcon(custom_icon_7202de64e00a4104afd811e281d31dad);
+        
+    
+        var popup_ed88c5c5730e4832bb356d12548a87d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8056948a15c64053829ce4c3ad2ccab9 = $(`<div id="html_8056948a15c64053829ce4c3ad2ccab9" style="width: 100.0%; height: 100.0%;">Total Kasus : 4 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_ed88c5c5730e4832bb356d12548a87d2.setContent(html_8056948a15c64053829ce4c3ad2ccab9);
+        
+
+        marker_0c3957572d6240de832437eb4af94664.bindPopup(popup_ed88c5c5730e4832bb356d12548a87d2)
+        ;
+
+        
+    
+    
+            marker_0c3957572d6240de832437eb4af94664.bindTooltip(
+                `<div>
+                     Lampung
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb5376b427cc46a0b4ba95a0bf6e48ad = L.marker(
+                [-3.2384616, 130.1452734],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_46d0b43156304d19a94ed0965449cb85 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Lambang_Provinsi_Maluku.png"});
+        marker_eb5376b427cc46a0b4ba95a0bf6e48ad.setIcon(custom_icon_46d0b43156304d19a94ed0965449cb85);
+        
+    
+        var popup_c283ad3f7c9e41189f57064d5c7cee33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb9513252bc54c4689b48ca3594e3e34 = $(`<div id="html_bb9513252bc54c4689b48ca3594e3e34" style="width: 100.0%; height: 100.0%;">Total Kasus : 1 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_c283ad3f7c9e41189f57064d5c7cee33.setContent(html_bb9513252bc54c4689b48ca3594e3e34);
+        
+
+        marker_eb5376b427cc46a0b4ba95a0bf6e48ad.bindPopup(popup_c283ad3f7c9e41189f57064d5c7cee33)
+        ;
+
+        
+    
+    
+            marker_eb5376b427cc46a0b4ba95a0bf6e48ad.bindTooltip(
+                `<div>
+                     Maluku
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acdd2e603dac46bc94ec3531f3594b61 = L.marker(
+                [1.5709993, 127.8087693],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_f285ba145ae440c8999f37c4a29b1467 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Coat_of_arms_of_North_Maluku.png/1200px-Coat_of_arms_of_North_Maluku.png"});
+        marker_acdd2e603dac46bc94ec3531f3594b61.setIcon(custom_icon_f285ba145ae440c8999f37c4a29b1467);
+        
+    
+        var popup_4c10368550fa486d943575bdb3c7a759 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f75bc10da0df4a4cbe0fb06dc4275be0 = $(`<div id="html_f75bc10da0df4a4cbe0fb06dc4275be0" style="width: 100.0%; height: 100.0%;">Total Kasus : 1 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_4c10368550fa486d943575bdb3c7a759.setContent(html_f75bc10da0df4a4cbe0fb06dc4275be0);
+        
+
+        marker_acdd2e603dac46bc94ec3531f3594b61.bindPopup(popup_4c10368550fa486d943575bdb3c7a759)
+        ;
+
+        
+    
+    
+            marker_acdd2e603dac46bc94ec3531f3594b61.bindTooltip(
+                `<div>
+                     North Maluku
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06d8894e2b554f7781912335c5fcea4d = L.marker(
+                [1.5802128, 114.0308546],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_d92b726ea92e4f3e8682e25e8707d543 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Emblem_of_North_Kalimantan.png"});
+        marker_06d8894e2b554f7781912335c5fcea4d.setIcon(custom_icon_d92b726ea92e4f3e8682e25e8707d543);
+        
+    
+        var popup_0e6c0808c2dd4cd28ef83b00629b2f9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aedd59d0b1b4490d9cdac64eca5d85c1 = $(`<div id="html_aedd59d0b1b4490d9cdac64eca5d85c1" style="width: 100.0%; height: 100.0%;">Total Kasus : 2 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_0e6c0808c2dd4cd28ef83b00629b2f9f.setContent(html_aedd59d0b1b4490d9cdac64eca5d85c1);
+        
+
+        marker_06d8894e2b554f7781912335c5fcea4d.bindPopup(popup_0e6c0808c2dd4cd28ef83b00629b2f9f)
+        ;
+
+        
+    
+    
+            marker_06d8894e2b554f7781912335c5fcea4d.bindTooltip(
+                `<div>
+                     North Kalimantan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8aefab8d14e473f86a2555244dd13bb = L.marker(
+                [0.6246932, 123.9750018],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_4c43c784c37e4498924457774c1ac920 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Coat_of_arms_of_North_Sulawesi.svg/1200px-Coat_of_arms_of_North_Sulawesi.svg.png"});
+        marker_d8aefab8d14e473f86a2555244dd13bb.setIcon(custom_icon_4c43c784c37e4498924457774c1ac920);
+        
+    
+        var popup_d377458581cd47528c3dcdd4e6ee3bf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bedb71c030d3480da21c1e5b25fb3db9 = $(`<div id="html_bedb71c030d3480da21c1e5b25fb3db9" style="width: 100.0%; height: 100.0%;">Total Kasus : 2 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_d377458581cd47528c3dcdd4e6ee3bf6.setContent(html_bedb71c030d3480da21c1e5b25fb3db9);
+        
+
+        marker_d8aefab8d14e473f86a2555244dd13bb.bindPopup(popup_d377458581cd47528c3dcdd4e6ee3bf6)
+        ;
+
+        
+    
+    
+            marker_d8aefab8d14e473f86a2555244dd13bb.bindTooltip(
+                `<div>
+                     North Sulawesi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12ad7c950e58485ba4b1f1b42faad73e = L.marker(
+                [2.1153547, 99.5450974],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_1e1e2bfc9396465eb618a8b5f3335cff = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Coat_of_arms_of_North_Sumatra.svg/1200px-Coat_of_arms_of_North_Sumatra.svg.png"});
+        marker_12ad7c950e58485ba4b1f1b42faad73e.setIcon(custom_icon_1e1e2bfc9396465eb618a8b5f3335cff);
+        
+    
+        var popup_366e6592bf6141198ff5b6844568b660 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58ee619851954852b8ef590a26d8e525 = $(`<div id="html_58ee619851954852b8ef590a26d8e525" style="width: 100.0%; height: 100.0%;">Total Kasus : 8 Pasien Sembuh : 0 Kematian : 1</div>`)[0];
+            popup_366e6592bf6141198ff5b6844568b660.setContent(html_58ee619851954852b8ef590a26d8e525);
+        
+
+        marker_12ad7c950e58485ba4b1f1b42faad73e.bindPopup(popup_366e6592bf6141198ff5b6844568b660)
+        ;
+
+        
+    
+    
+            marker_12ad7c950e58485ba4b1f1b42faad73e.bindTooltip(
+                `<div>
+                     North Sumatera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b285e7cb4c543a0b4ee9ddeae2ca0e7 = L.marker(
+                [-4.269928, 138.0803529],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_c5c72d02c2f94e988917e2c47677b31d = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Coat_of_Arms_of_Papua.png"});
+        marker_6b285e7cb4c543a0b4ee9ddeae2ca0e7.setIcon(custom_icon_c5c72d02c2f94e988917e2c47677b31d);
+        
+    
+        var popup_a7fadb1336bd49db97c23ec67a1bd489 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e18c720d911f4d9eae6e9660d304b8bd = $(`<div id="html_e18c720d911f4d9eae6e9660d304b8bd" style="width: 100.0%; height: 100.0%;">Total Kasus : 9 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_a7fadb1336bd49db97c23ec67a1bd489.setContent(html_e18c720d911f4d9eae6e9660d304b8bd);
+        
+
+        marker_6b285e7cb4c543a0b4ee9ddeae2ca0e7.bindPopup(popup_a7fadb1336bd49db97c23ec67a1bd489)
+        ;
+
+        
+    
+    
+            marker_6b285e7cb4c543a0b4ee9ddeae2ca0e7.bindTooltip(
+                `<div>
+                     Papua
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15ae7d634b14466ebbc8fcca57b01a45 = L.marker(
+                [0.2933469, 101.7068294],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_5b7bfab72d354f06b3a87b328b4ef603 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Coat_of_arms_of_Riau.svg/1200px-Coat_of_arms_of_Riau.svg.png"});
+        marker_15ae7d634b14466ebbc8fcca57b01a45.setIcon(custom_icon_5b7bfab72d354f06b3a87b328b4ef603);
+        
+    
+        var popup_7b8bb5ab8db34bab85b309f76c2a042d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8519b70bef62451b9ec2a6778208aa17 = $(`<div id="html_8519b70bef62451b9ec2a6778208aa17" style="width: 100.0%; height: 100.0%;">Total Kasus : 2 Pasien Sembuh : 1 Kematian : 0</div>`)[0];
+            popup_7b8bb5ab8db34bab85b309f76c2a042d.setContent(html_8519b70bef62451b9ec2a6778208aa17);
+        
+
+        marker_15ae7d634b14466ebbc8fcca57b01a45.bindPopup(popup_7b8bb5ab8db34bab85b309f76c2a042d)
+        ;
+
+        
+    
+    
+            marker_15ae7d634b14466ebbc8fcca57b01a45.bindTooltip(
+                `<div>
+                     Riau
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f08b54fba7534650bec759f226d177c2 = L.marker(
+                [3.9456514, 108.1428669],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_8e26dc1cf0854cdbab92c8d6f22bde78 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Coat_of_arms_of_Riau_Islands.png"});
+        marker_f08b54fba7534650bec759f226d177c2.setIcon(custom_icon_8e26dc1cf0854cdbab92c8d6f22bde78);
+        
+    
+        var popup_5d894d99b32747359cac439f168d502a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_872700d98f1d4bf09135feff9ece39fc = $(`<div id="html_872700d98f1d4bf09135feff9ece39fc" style="width: 100.0%; height: 100.0%;">Total Kasus : 5 Pasien Sembuh : 0 Kematian : 1</div>`)[0];
+            popup_5d894d99b32747359cac439f168d502a.setContent(html_872700d98f1d4bf09135feff9ece39fc);
+        
+
+        marker_f08b54fba7534650bec759f226d177c2.bindPopup(popup_5d894d99b32747359cac439f168d502a)
+        ;
+
+        
+    
+    
+            marker_f08b54fba7534650bec759f226d177c2.bindTooltip(
+                `<div>
+                     Riau Islands
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de954848d84f4c78864b07873bb7a975 = L.marker(
+                [-3.0926415, 115.2837585],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_01b7ca134d5641149da8974419bfb37b = L.icon({"iconSize": [30, 30], "iconUrl": "https://pngimage.net/wp-content/uploads/2018/06/logo-provinsi-kalimantan-selatan-png.png"});
+        marker_de954848d84f4c78864b07873bb7a975.setIcon(custom_icon_01b7ca134d5641149da8974419bfb37b);
+        
+    
+        var popup_c39bbc9c05a4436ba5b4379ab20e01e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61c2464225034623b3b1b2969294e623 = $(`<div id="html_61c2464225034623b3b1b2969294e623" style="width: 100.0%; height: 100.0%;">Total Kasus : 1 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_c39bbc9c05a4436ba5b4379ab20e01e6.setContent(html_61c2464225034623b3b1b2969294e623);
+        
+
+        marker_de954848d84f4c78864b07873bb7a975.bindPopup(popup_c39bbc9c05a4436ba5b4379ab20e01e6)
+        ;
+
+        
+    
+    
+            marker_de954848d84f4c78864b07873bb7a975.bindTooltip(
+                `<div>
+                     South Kalimantan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e1a229410324915affb1b75968c9ae8 = L.marker(
+                [-3.6687994, 119.9740534],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_03156b95045648a88735d15cccf22df4 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Coat_of_arms_of_South_Sulawesi.svg/1200px-Coat_of_arms_of_South_Sulawesi.svg.png"});
+        marker_1e1a229410324915affb1b75968c9ae8.setIcon(custom_icon_03156b95045648a88735d15cccf22df4);
+        
+    
+        var popup_f040fcd7a7c649ea88e88d9b09ca7034 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3228d540e894a15966f03c1e9e5f0cc = $(`<div id="html_f3228d540e894a15966f03c1e9e5f0cc" style="width: 100.0%; height: 100.0%;">Total Kasus : 47 Pasien Sembuh : 0 Kematian : 1</div>`)[0];
+            popup_f040fcd7a7c649ea88e88d9b09ca7034.setContent(html_f3228d540e894a15966f03c1e9e5f0cc);
+        
+
+        marker_1e1a229410324915affb1b75968c9ae8.bindPopup(popup_f040fcd7a7c649ea88e88d9b09ca7034)
+        ;
+
+        
+    
+    
+            marker_1e1a229410324915affb1b75968c9ae8.bindTooltip(
+                `<div>
+                     South Sulawesi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78bf5fc47ba448f3bddbd0647c68489e = L.marker(
+                [-4.14491, 122.174605],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_93d1649a70fa4845930c41b0fe6fa0e8 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Coat_of_arms_of_Southeast_Sulawesi.svg/1200px-Coat_of_arms_of_Southeast_Sulawesi.svg.png"});
+        marker_78bf5fc47ba448f3bddbd0647c68489e.setIcon(custom_icon_93d1649a70fa4845930c41b0fe6fa0e8);
+        
+    
+        var popup_4ea2ebb4d2be4d3ebf8f65ec374ada2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffd504f1a5094b8f9ffc4c8ab472ddb2 = $(`<div id="html_ffd504f1a5094b8f9ffc4c8ab472ddb2" style="width: 100.0%; height: 100.0%;">Total Kasus : 3 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_4ea2ebb4d2be4d3ebf8f65ec374ada2b.setContent(html_ffd504f1a5094b8f9ffc4c8ab472ddb2);
+        
+
+        marker_78bf5fc47ba448f3bddbd0647c68489e.bindPopup(popup_4ea2ebb4d2be4d3ebf8f65ec374ada2b)
+        ;
+
+        
+    
+    
+            marker_78bf5fc47ba448f3bddbd0647c68489e.bindTooltip(
+                `<div>
+                     Southeast Sulawesi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35773f4b0ca1468f9061d676c8194399 = L.marker(
+                [-3.3194374, 103.914399],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_fa520f2b9124412f9f5f347d4ef110be = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Coat_of_arms_of_South_Sumatra.svg/1200px-Coat_of_arms_of_South_Sumatra.svg.png"});
+        marker_35773f4b0ca1468f9061d676c8194399.setIcon(custom_icon_fa520f2b9124412f9f5f347d4ef110be);
+        
+    
+        var popup_6151efc68d5e4d27af3fca020efdad00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0156044a0b6246348276007e1b1cd589 = $(`<div id="html_0156044a0b6246348276007e1b1cd589" style="width: 100.0%; height: 100.0%;">Total Kasus : 2 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_6151efc68d5e4d27af3fca020efdad00.setContent(html_0156044a0b6246348276007e1b1cd589);
+        
+
+        marker_35773f4b0ca1468f9061d676c8194399.bindPopup(popup_6151efc68d5e4d27af3fca020efdad00)
+        ;
+
+        
+    
+    
+            marker_35773f4b0ca1468f9061d676c8194399.bindTooltip(
+                `<div>
+                     South Sumatera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3720d8d8d74419d8d1ac5c6ec962cfd = L.marker(
+                [-7.090911, 107.668887],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_c79ea7acb7c04dbeab6676f381c0a60f = L.icon({"iconSize": [30, 30], "iconUrl": "https://3.bp.blogspot.com/-BRV8kAVyi4I/XDX3S86Pk5I/AAAAAAAABwA/K5fnfc4c1VYps0EcV32qP6yB96kghqU3QCLcBGAs/s1600/logo%2Bjawa%2Bbarat.png"});
+        marker_d3720d8d8d74419d8d1ac5c6ec962cfd.setIcon(custom_icon_c79ea7acb7c04dbeab6676f381c0a60f);
+        
+    
+        var popup_470d91b8194f49eaa30b13f9d01959ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f140b445855c4c35b5123539a24e964e = $(`<div id="html_f140b445855c4c35b5123539a24e964e" style="width: 100.0%; height: 100.0%;">Total Kasus : 149 Pasien Sembuh : 6 Kematian : 19</div>`)[0];
+            popup_470d91b8194f49eaa30b13f9d01959ad.setContent(html_f140b445855c4c35b5123539a24e964e);
+        
+
+        marker_d3720d8d8d74419d8d1ac5c6ec962cfd.bindPopup(popup_470d91b8194f49eaa30b13f9d01959ad)
+        ;
+
+        
+    
+    
+            marker_d3720d8d8d74419d8d1ac5c6ec962cfd.bindTooltip(
+                `<div>
+                     West Java
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aff07d8ffa0b4743a63d34f74a60d018 = L.marker(
+                [-0.2787808, 111.4752851],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_e1bca985207345afb70b6cc4ab74232a = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Coat_of_arms_of_West_Kalimantan.svg/1200px-Coat_of_arms_of_West_Kalimantan.svg.png"});
+        marker_aff07d8ffa0b4743a63d34f74a60d018.setIcon(custom_icon_e1bca985207345afb70b6cc4ab74232a);
+        
+    
+        var popup_a421b669968a427bb8d995b9915ef395 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fa70148ed5a49aa862014fce9459e5e = $(`<div id="html_1fa70148ed5a49aa862014fce9459e5e" style="width: 100.0%; height: 100.0%;">Total Kasus : 8 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_a421b669968a427bb8d995b9915ef395.setContent(html_1fa70148ed5a49aa862014fce9459e5e);
+        
+
+        marker_aff07d8ffa0b4743a63d34f74a60d018.bindPopup(popup_a421b669968a427bb8d995b9915ef395)
+        ;
+
+        
+    
+    
+            marker_aff07d8ffa0b4743a63d34f74a60d018.bindTooltip(
+                `<div>
+                     West Kalimantan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_298383723fff442ea19d45580750c472 = L.marker(
+                [-8.6529334, 117.3616476],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_12e11c7446d34277bd65ae9f1b2c122d = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Coat_of_arms_of_West_Nusa_Tenggara.svg/1200px-Coat_of_arms_of_West_Nusa_Tenggara.svg.png"});
+        marker_298383723fff442ea19d45580750c472.setIcon(custom_icon_12e11c7446d34277bd65ae9f1b2c122d);
+        
+    
+        var popup_75076a616a834ac6917eab9eecb120f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d276b9131eb4cc3b29f82ecf4677d7e = $(`<div id="html_3d276b9131eb4cc3b29f82ecf4677d7e" style="width: 100.0%; height: 100.0%;">Total Kasus : 2 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_75076a616a834ac6917eab9eecb120f7.setContent(html_3d276b9131eb4cc3b29f82ecf4677d7e);
+        
+
+        marker_298383723fff442ea19d45580750c472.bindPopup(popup_75076a616a834ac6917eab9eecb120f7)
+        ;
+
+        
+    
+    
+            marker_298383723fff442ea19d45580750c472.bindTooltip(
+                `<div>
+                     West Nusa Tenggara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bcd94045df6f4763881470ed30fc9a70 = L.marker(
+                [-1.3361154, 133.1747162],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_fbab0f849ed7472abf9f1fd0d4081c99 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Coat_of_arms_of_West_Papua.svg/1200px-Coat_of_arms_of_West_Papua.svg.png"});
+        marker_bcd94045df6f4763881470ed30fc9a70.setIcon(custom_icon_fbab0f849ed7472abf9f1fd0d4081c99);
+        
+    
+        var popup_71959b645db54cf88ec72d6a376ac054 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6df9097100b04ae086cb84f63f082c0e = $(`<div id="html_6df9097100b04ae086cb84f63f082c0e" style="width: 100.0%; height: 100.0%;">Total Kasus : 2 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_71959b645db54cf88ec72d6a376ac054.setContent(html_6df9097100b04ae086cb84f63f082c0e);
+        
+
+        marker_bcd94045df6f4763881470ed30fc9a70.bindPopup(popup_71959b645db54cf88ec72d6a376ac054)
+        ;
+
+        
+    
+    
+            marker_bcd94045df6f4763881470ed30fc9a70.bindTooltip(
+                `<div>
+                     West Papua
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99c4f94be1f44830a3dff4e968f36aea = L.marker(
+                [-2.8441371, 119.2320784],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_4bf59fb392a64e2cae8dbaf55fa69451 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Coat_of_arms_of_West_Sulawesi.png"});
+        marker_99c4f94be1f44830a3dff4e968f36aea.setIcon(custom_icon_4bf59fb392a64e2cae8dbaf55fa69451);
+        
+    
+        var popup_dcf4a3049c7e45e3a6301267e34852cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_745d4a995bbd4b31baa8d68b72c5c788 = $(`<div id="html_745d4a995bbd4b31baa8d68b72c5c788" style="width: 100.0%; height: 100.0%;">Total Kasus : 1 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_dcf4a3049c7e45e3a6301267e34852cd.setContent(html_745d4a995bbd4b31baa8d68b72c5c788);
+        
+
+        marker_99c4f94be1f44830a3dff4e968f36aea.bindPopup(popup_dcf4a3049c7e45e3a6301267e34852cd)
+        ;
+
+        
+    
+    
+            marker_99c4f94be1f44830a3dff4e968f36aea.bindTooltip(
+                `<div>
+                     West Sulawesi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1d40ec7f0e4402b937816802d7ceac4 = L.marker(
+                [-0.7399397, 100.8000051],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_f47ae6d4a0654ceb89eb16ba296f937a = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Coat_of_arms_of_West_Sumatra.svg/1200px-Coat_of_arms_of_West_Sumatra.svg.png"});
+        marker_d1d40ec7f0e4402b937816802d7ceac4.setIcon(custom_icon_f47ae6d4a0654ceb89eb16ba296f937a);
+        
+    
+        var popup_6a94c06debb44e57bbc2fc6d91fabd4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ef5675cd0d94fd088ba7824a359143c = $(`<div id="html_2ef5675cd0d94fd088ba7824a359143c" style="width: 100.0%; height: 100.0%;">Total Kasus : 5 Pasien Sembuh : 0 Kematian : 0</div>`)[0];
+            popup_6a94c06debb44e57bbc2fc6d91fabd4e.setContent(html_2ef5675cd0d94fd088ba7824a359143c);
+        
+
+        marker_d1d40ec7f0e4402b937816802d7ceac4.bindPopup(popup_6a94c06debb44e57bbc2fc6d91fabd4e)
+        ;
+
+        
+    
+    
+            marker_d1d40ec7f0e4402b937816802d7ceac4.bindTooltip(
+                `<div>
+                     West Sumatra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4894787600374e3ca55c34e495a0ff08 = L.marker(
+                [-7.8753849, 110.4262088],
+                {}
+            ).addTo(map_46bdbf64bf5240059804ffe2386082c5);
+        
+    
+        var custom_icon_00a9bec60102478e989323b787e1e7a1 = L.icon({"iconSize": [30, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Coat_of_arms_of_Yogyakarta.svg/1200px-Coat_of_arms_of_Yogyakarta.svg.png"});
+        marker_4894787600374e3ca55c34e495a0ff08.setIcon(custom_icon_00a9bec60102478e989323b787e1e7a1);
+        
+    
+        var popup_d018e7740fcc487581d856859fa147b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d641ddcbb1044408bb48f2b4745a11b2 = $(`<div id="html_d641ddcbb1044408bb48f2b4745a11b2" style="width: 100.0%; height: 100.0%;">Total Kasus : 22 Pasien Sembuh : 1 Kematian : 2</div>`)[0];
+            popup_d018e7740fcc487581d856859fa147b1.setContent(html_d641ddcbb1044408bb48f2b4745a11b2);
+        
+
+        marker_4894787600374e3ca55c34e495a0ff08.bindPopup(popup_d018e7740fcc487581d856859fa147b1)
+        ;
+
+        
+    
+    
+            marker_4894787600374e3ca55c34e495a0ff08.bindTooltip(
+                `<div>
+                     Yogyakarta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
